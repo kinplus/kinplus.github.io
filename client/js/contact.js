@@ -1,14 +1,14 @@
 var map = new GMaps({
   el: '#map',
-  lat: -6.2099505,
-  lng: 106.7521659
+  lat: -6.217245,
+  lng: 106.761033
 });
 
 map.addMarker({
-  lat: -6.2099505,
-  lng: 106.7521659,
-  title: 'KIN+',
+  lat: -6.217245,
+  lng: 106.761033,
+  title: 'KIN+ Sports Tape',
   infoWindow: {
-    content: '<p>Lorem Ipsum Content</p>'
+    content: '<p>KIN+ Sports Tape</p>'
   }
 });

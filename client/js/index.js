@@ -5,6 +5,9 @@ $(document).ready(function(){
     height: 440
   })
   $('#message').trigger('autoresize');
+  
+  $('.sidenav').sidenav();
+  $('.parallax').parallax();
 });
 
 /*

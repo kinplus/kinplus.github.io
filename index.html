@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>KIN+ Sports Tape</title>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons|Oswald" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="client/css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="client/css/index.css">
-    <link type="text/css" rel="stylesheet" href="client/css/material-design-iconic-font.min.css">
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- CSS  -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons|Oswald" rel="stylesheet"/>
+    <link href="client/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="client/css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="client/css/material-design-iconic-font.min.css" type="text/css" rel="stylesheet"/>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo="/>
   </head>
   <body>
-    <nav id="navigator" class="nav nav-wrapper">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo" style="font-family: Oswald; font-weight: bold; color: yellow; cursor: pointer;">KIN+ Sports Tape</a>
-          <a href="index.html" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="client/about.html" style="padding: 0px 20px;">ABOUT</a></li>
-            <li><a href="client/contact.html" style="padding-right: 0px;">CONTACT</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-nav">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="client/about.html">ABOUT</a></li>
-            <li><a href="client/contact.html">CONTACT</a></li>
-          </ul>
-        </div>
+
+
+    <nav class="nav" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo" style="font-family: Oswald; font-weight: bold; color: yellow; cursor: pointer;">KIN+ Sports Tape</a>
+        <a href="index.html" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="client/about.html" style="padding: 0px 20px;">ABOUT</a></li>
+          <li><a href="client/contact.html" style="padding-right: 0px;">CONTACT</a></li>
+        </ul>
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="client/about.html">ABOUT</a></li>
+          <li><a href="client/contact.html">CONTACT</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
     </nav>
 
@@ -357,7 +360,7 @@
       </div>
     </footer>
 
-    <script type="text/javascript" src="client/js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="client/js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="client/js/materialize.min.js"></script>
     <script type="text/javascript" src="client/js/index.js"></script>
   </body>

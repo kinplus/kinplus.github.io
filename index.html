@@ -6,66 +6,101 @@
     <title>KIN+ Sports Tape</title>
 
     <!-- CSS  -->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons|Oswald" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="client/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="client/css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="client/css/material-design-iconic-font.min.css" type="text/css" rel="stylesheet"/>
     <link rel="icon" href="data:;base64,iVBORw0KGgo="/>
   </head>
   <body>
-
-
     <nav class="nav" role="navigation">
       <div class="nav-wrapper container">
-        <a href="index.html" class="brand-logo" style="font-family: Oswald; font-weight: bold; color: yellow; cursor: pointer;">KIN+ Sports Tape</a>
-        <a href="index.html" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="index.html" class="brand-logo logo">KIN+ Sports Tape</a>
+
         <ul class="right hide-on-med-and-down">
           <li><a href="index.html">HOME</a></li>
-          <li><a href="client/about.html" style="padding: 0px 20px;">ABOUT</a></li>
+          <li><a href="client/about.html">ABOUT</a></li>
           <li><a href="client/contact.html" style="padding-right: 0px;">CONTACT</a></li>
         </ul>
-        <ul id="nav-mobile" class="sidenav">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="client/about.html">ABOUT</a></li>
-          <li><a href="client/contact.html">CONTACT</a></li>
-        </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+        <div id="nav-mobile" class="sidenav">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="client/about.html">ABOUT</a></li>
+            <li><a href="client/contact.html">CONTACT</a></li>
+          </ul>
+          <div class="footer-div">
+            <p class="footer-info">Fadly Kayo © 2017 | Privacy Policy</p>
+          </div>
+        </div>
+
+        <a href="index.html" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
     </nav>
 
     <div class="main">
-      <div id="slider" class="slider" style="margin-top: 100px;">
+      <!-- <div class="slider">
         <ul class="slides">
           <li>
-            <img style="background-size: cover;" src="client/assets/pic4.jpg" alt="sliderimg">
+            <img src="https://lorempixel.com/580/250/nature/1">
             <div class="caption center-align">
-              <h3 style="font-family: Oswald;">The product you need for pain relief and support</h3>
-              <p style="font-size: 16px" class="light grey-text text-lighten-3"></p>
-              <a href="client/contact.html" class="waves-effect waves-light btn" style="margin-top: 20px;">Contact Us</a>
+              <h3>This is our big Tagline!</h3>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
-            <img style="background-size: cover;" src="client/assets/pic3.jpg" alt="sliderimg">
+            <img src="https://lorempixel.com/580/250/nature/2">
             <div class="caption left-align">
-              <h3 style="font-family: Oswald;">Latex-free, hypoallergenic and wearable for days at a time</h3>
-              <p style="font-size: 16px;" class="light grey-text text-lighten-3"></p>
-              <a href="#seconddiv" class="waves-effect waves-light btn" style="margin-top: 20px;">Our Products</a>
+              <h3>Left Aligned Caption</h3>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
-            <img style="background-size: cover;" src="client/assets/pic5.jpg" alt="sliderimg">
+            <img src="https://lorempixel.com/580/250/nature/3">
             <div class="caption right-align">
-              <h3 style="font-family: Oswald;">For treating athletic injuries and a variety of physical disorders</h3>
-              <p style="font-size: 16px;" class="light grey-text text-lighten-3"></p>
-              <a href="client/about.html" class="waves-effect waves-light btn" style="margin-top: 20px;">About Us</a>
+              <h3>Right Aligned Caption</h3>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
-            <img style="background-size: cover;" src="client/assets/pic2.jpg" alt="sliderimg">
+            <img src="https://lorempixel.com/580/250/nature/4">
             <div class="caption center-align">
-              <h3 style="font-family: Oswald;">Contact us now!</h3>
-              <p style="font-size: 16px" class="light grey-text text-lighten-3"></p>
-              <a href="client/contact.html" class="waves-effect waves-light btn" style="margin-top: 20px;">Buy Now</a>
+              <h3>This is our big Tagline!</h3>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+        </ul>
+      </div> -->
+
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img class="image-slider" src="client/assets/pic4.jpg" alt="sliderimg">
+            <div class="caption center-align">
+              <h3>The product you need for pain relief and support</h3>
+              <a href="client/contact.html" class="waves-effect waves-light btn button-slider">Contact Us</a>
+            </div>
+          </li>
+          <li>
+            <img class="image-slider" src="client/assets/pic3.jpg" alt="sliderimg">
+            <div class="caption left-align">
+              <h3>Latex-free, hypoallergenic and wearable for days at a time</h3>
+              <a href="#seconddiv" class="waves-effect waves-light btn button-slider">Our Products</a>
+            </div>
+          </li>
+          <li>
+            <img class="image-slider" src="client/assets/pic5.jpg" alt="sliderimg">
+            <div class="caption right-align">
+              <h3>For treating athletic injuries and a variety of physical disorders</h3>
+              <a href="client/about.html" class="waves-effect waves-light btn button-slider">About Us</a>
+            </div>
+          </li>
+          <li>
+            <img class="image-slider" src="client/assets/pic2.jpg" alt="sliderimg">
+            <div class="caption center-align">
+              <h3>Contact us now!</h3>
+              <a href="client/contact.html" class="waves-effect waves-light btn button-slider">Buy Now</a>
             </div>
           </li>
         </ul>
@@ -78,7 +113,7 @@
               <img style="width: 550px; height: auto;" src="client/assets/Edited/IMG_1693.jpg" alt="kinplusimg">
             </div>
             <div class="col xs12 s8">
-              <h4 style="font-family: Oswald;">Apa itu KIN+ Sports Tape?</h4>
+              <h4>Apa itu KIN+ Sports Tape?</h4>
               <p style="font-size: 18px; text-align: justify; margin: 30px 0px;">KIN+ Sports Tape merupakan produk kinesiology tape dengan kualitas yang sudah teruji klinis dengan harga yang terjangkau. KIN+ juga sudah di gunakan di seluruh pelosok tanah air oleh para olahragawan dan ahli fisioterapis, untuk mencegah dan menanggulangi berbagai jenis cidera di bidang olahraga.</p>
               <p style="font-size: 18px; text-align: justify; margin: 30px 0px;">KIN+ Sports Tape terbuat dari katun 95% dan spandex 5% untuk elastisitas dari produk ini. KIN+ ini hampir identik dengan kulit manusia dengan ketebalan dan elastisitasnya. Di satu sisi dilapisi dengan perekat yang kuat, bebas lateks, dan menggunakan lem akrilik. Alat ini tidak mengandung bahan obat-obatan. Karena tekstur dari KIN+ ini berpori, membuat kulit dapat bernafas, dan bisa dipakai selama 3-5 hari. KIN+ terbuat dari bahan yang tahan air, jadi mandi dan berenang tidak akan mempengaruhi tape ini.</p>
               <!-- <button class="waves-effect waves-light btn btn1 right">Read More</button> -->
@@ -343,7 +378,7 @@
     </div>
 
     <footer>
-      <div id="addclient/contact" class="fixed-action-btn horizontal">
+      <div class="fixed-action-btn">
         <a class="btn-floating btn-large red">
           <i class="large material-icons green">person_add</i>
         </a>
@@ -353,7 +388,7 @@
         </ul>
       </div>
 
-      <div id="fourthdiv" style="background-color: black; height: inherit; padding: 20px 0px; color: white;">
+      <div class="hide-on-med-and-down" style="background-color: black; height: inherit; padding: 20px 0px; color: white;">
         <div class="container">
           <p style="font-size: 10px; font-family: Oswald; margin: 0px;">Fadly Kayo © 2017 | Privacy Policy</p>
         </div>

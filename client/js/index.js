@@ -1,13 +1,17 @@
 $(document).ready(function(){
-  $(".button-collapse").sideNav()
-  $('.slider').slider({
-    indicators: false,
-    height: 440
-  })
-  $('#message').trigger('autoresize');
-  
   $('.sidenav').sidenav();
   $('.parallax').parallax();
+  $('.fixed-action-btn').floatingActionButton({
+    direction: 'left'
+  });
+
+  $('.slider').slider({
+    indicators: true,
+    height: 440
+  })
+
+  $('#message').trigger('autoresize');
+
 });
 
 /*

@@ -1,5 +1,5 @@
-.container {
-  width: 2500px;
+body {
+  font-family: Oswald;
 }
 
 .nav {
@@ -10,6 +10,77 @@
   position: fixed;
   top: 0;
   z-index: 10;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .brand-logo {
+  position: relative;
+}
+
+@media only screen and (min-width: 993px) {
+  .nav .nav-wrapper {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav .brand-logo {
+    position: absolute;
+  }
+
+  .slider .slides li .caption {
+    top: 5%;
+  }
+}
+
+.sidenav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.sidenav-overlay {
+  z-index: 2 !important;
+}
+
+.logo {
+  font-weight: bold;
+  color: yellow !important;
+  cursor: pointer;
+}
+
+.slider {
+  margin-top: 100px;
+}
+
+.image-slider {
+  object-fit: cover;
+}
+
+.button-slider {
+  margin-top: 20px;
+}
+
+.footer-div {
+  background-color: black;
+  padding: 20px 32px;
+  color: white;
+}
+
+.footer-info {
+  font-size: 10px;
+  margin: 0px;
 }
 
 .btn {

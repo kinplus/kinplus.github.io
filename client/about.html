@@ -14,22 +14,28 @@
     <link rel="icon" href="data:;base64,iVBORw0KGgo="/>
   </head>
   <body>
-    <nav id="navigator" class="nav">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="../index.html" class="brand-logo" style="font-family: Oswald; font-weight: bold; color: yellow; cursor: pointer;">KIN+ Sports Tape</a>
-          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="about.html" style="padding: 0px 20px;">ABOUT</a></li>
-            <li><a href="contact.html" style="padding-right: 0px;">CONTACT</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-nav">
+    <nav class="nav" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="../index.html" class="brand-logo logo">KIN+ Sports Tape</a>
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html" style="padding-right: 0px;">CONTACT</a></li>
+        </ul>
+
+        <div id="nav-mobile" class="sidenav">
+          <ul>
             <li><a href="../index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
+          <div class="footer-div">
+            <p class="footer-info">Fadly Kayo © 2017 | Privacy Policy</p>
+          </div>
         </div>
+
+        <a href="../index.html" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
     </nav>
 
@@ -79,7 +85,7 @@
     </div>
 
     <footer>
-      <div id="addcontact" class="fixed-action-btn horizontal">
+      <div class="fixed-action-btn">
         <a class="btn-floating btn-large red">
           <i class="large material-icons green">person_add</i>
         </a>
@@ -89,9 +95,9 @@
         </ul>
       </div>
 
-      <div id="fourthdiv" style="background-color: black; height: inherit; padding: 20px 0px; color: white;">
+      <div class="hide-on-med-and-down" style="background-color: black; height: inherit; padding: 20px 0px; color: white;">
         <div class="container">
-          <p style="font-size: 10px; font-family: Oswald; margin: 0px;">Fadly Kayo © 2017 | Privacy Policy</p>
+          <p style="font-size: 10px;  margin: 0px;">Fadly Kayo © 2017 | Privacy Policy</p>
         </div>
       </div>
     </footer>

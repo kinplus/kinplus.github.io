@@ -51,6 +51,16 @@ body {
     margin-left: -80px !important;
   }
 
+  #firstdiv-img-about {
+    width: 300px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+
+  #firstdiv-big-media-container-about {
+    margin-left: 0px !important;
+  }
+
   .show-on-med-and-down {
     display: block;
   }
@@ -115,10 +125,22 @@ body {
   height: auto;
 }
 
+#firstdiv-big-media-container-about {
+  margin-left: 45px;
+  margin-top: -23px;
+}
+
 #firstdiv-img {
   width: 550px;
   height: auto;
   margin-left: -180px;
+}
+
+#firstdiv-img-about {
+  width: 500px;
+  height: auto;
+  margin-left: -150px;
+  margin-top: 30px;
 }
 
 #seconddiv {

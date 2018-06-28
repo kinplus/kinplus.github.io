@@ -1,9 +1,10 @@
-$(document).ready(function() {
   var map;
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -6.217245, lng: 106.761033},
-    zoom: 20
-  });
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -6.217245, lng: 106.761033},
+      zoom: 20
+    });
+  }
 
   var marker;
   marker = new google.maps.Marker({
@@ -21,4 +22,3 @@ $(document).ready(function() {
   google.maps.event.addListener(marker, 'click', function() {
     infowindow.open(map,marker);
   });
-});
